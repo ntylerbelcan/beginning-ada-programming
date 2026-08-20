@@ -9,7 +9,7 @@ procedure if_statement is
 begin
   if Int1 = Int2 or Int1 > Int2
   then
-    Ada.Text_IO.Put_Line("Int1 and Int2 are the same.");
+    Ada.Text_IO.Put_Line("Int1 is the same as Int2 or greater.");
   elsif Int1 = Int3 and Int2 <= Int1
   then
     Ada.Text_IO.Put_Line("Int1 and Int3 are the same.");
